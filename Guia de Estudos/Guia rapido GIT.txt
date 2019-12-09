@@ -4,18 +4,18 @@ git add . 	//adiciona arquivos no cached para comitar ao projeto
 git rm --cached "nome arquivo" //Remove o arquivo do cached.
 git config --global user.email = "silveirapdu@gmail.com"
 git config --global user.name = "Cleverson Vieira Silveira"
-git commit -m "informações sobre o commit //adicionar os arquivos que estao cached para a versao do software
-git log // mostra informações sobre todos os commits
-git log --stat //mostra informações detalhadas sobre os commits
-git log -p // mostra alteração dos commits
-git log -p --since=2.days //mostra detalhes das alterações realizadas nos ultimos dois dias.
-git log -p --since=2.hours //mostra detalhes das alterações realizadas nos ultimos dois dias.
+git commit -m "informaï¿½ï¿½es sobre o commit //adicionar os arquivos que estao cached para a versao do software
+git log // mostra informaï¿½ï¿½es sobre todos os commits
+git log --stat //mostra informaï¿½ï¿½es detalhadas sobre os commits
+git log -p // mostra alteraï¿½ï¿½o dos commits
+git log -p --since=2.days //mostra detalhes das alteraï¿½ï¿½es realizadas nos ultimos dois dias.
+git log -p --since=2.hours //mostra detalhes das alteraï¿½ï¿½es realizadas nos ultimos dois dias.
 .gitignore //ignorar arquivos para os commits, criar o arquivo no projeto e colocar o nome dos arquivos a serem ignorados 	 
 
 git checkout f4dde39123178a131d17fb69fda85411b93844c2 //volta para o versionamento do Hash
 
 //criar branches
-git checkout -b php_v1.0 // cria um novo branche php_v1.0 e já aponta para o Branch
+git checkout -b php_v1.0 // cria um novo branche php_v1.0 e jï¿½ aponta para o Branch
 git branch php_v1.0 // cria um novo branch php_v1.0
 //git merge php_v1.0 //cria um merge deste banch com o master. Para realizar o Merge sempre deve estar no MAster
 //Apos resolver conflitos, add os arquivos novamente e da um commit -a -m
@@ -38,3 +38,4 @@ git push -u origin php_v1.0 // sobre o projeto branch para o repositorio de orig
 
 //assistir o git branch
 https://www.youtube.com/watch?v=KfiGkbudPoE&list=PLJ_KhUnlXUPshKEck92DXt8_zHQa5QfGk&index=11
+alterado
